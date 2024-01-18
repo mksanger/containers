@@ -1,9 +1,7 @@
 name: "Create release"
 
 on:
-  push:
-    tags:
-      - "*"
+  workflow_dispatch
 
 env:
   BUNDLE_NAME: bundle-ub-16.04-irods-clients-4.2.7.tgz
